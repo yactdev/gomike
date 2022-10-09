@@ -529,4 +529,5 @@
         FIVE: 5,
         ALL: ALL_FINGERS
     }
-});
+})
+;

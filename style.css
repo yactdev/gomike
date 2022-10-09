@@ -112,7 +112,7 @@ a:hover {
   background: rgba(255, 255, 255, 1);
 }
 .l-bloc {
-  color: rgba(0, 0, 0, 0.5);
+  color: #060606;
 }
 .l-bloc button:hover {
   color: rgba(0, 0, 0, 0.7);
@@ -435,11 +435,11 @@ h4 {
 }
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #fff !important;
+  color: #181818 !important;
 }
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
-  color: #fff !important;
+  color: #181818 !important;
 }
 .ltc-white {
   color: #fff !important;
