@@ -217,6 +217,15 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.5);
   width: 26px;
 }
+.bloc-text {
+  font-family: et-line;
+
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -598,7 +607,12 @@ h4 {
   .voffset-lg {
     margin-top: 30px;
   }
+  .social {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
+
 @media (max-width: 400px) {
   .bloc {
     padding-left: 0;
