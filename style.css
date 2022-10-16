@@ -612,6 +612,7 @@ h4 {
     flex-wrap: nowrap;
   }
   .row {
+    display: flex;
     margin-left: 0;
     margin-right: 0;
     justify-content: center;
