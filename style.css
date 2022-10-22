@@ -300,17 +300,18 @@ button {
 }
 a[data-lightbox] {
   position: relative;
-  display: block;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 a[data-lightbox]:hover::before {
-  content: "+";
+  content: "x";
   font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial;
   font-size: 32px;
   width: 50px;
   height: 50px;
-  margin-left: -25px;
+
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
@@ -612,10 +613,8 @@ h4 {
     flex-wrap: nowrap;
   }
   .row {
-    display: flex;
     margin-left: 0;
     margin-right: 0;
-    justify-content: center;
   }
 }
 .img-responsive {
