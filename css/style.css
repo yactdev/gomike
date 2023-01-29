@@ -66,7 +66,7 @@ a:hover {
   right: 0;
 }
 .texture-paper::before {
-  background: url(img/texture-paper.png);
+  background: url(/img/texture-paper.webp);
   background-size: 280px 280px;
 }
 .b-parallax {
@@ -470,13 +470,13 @@ h4 {
   border-color: #364577 !important;
 }
 .bg-lines-h2-bg {
-  background-image: url(img/lines-h2-bg.png);
+  background-image: url(/img/lines-h2-bg.png);
 }
 .bg-atlanta-20made-20sign {
-  background-image: url(img/atlanta%20made%20sign.jpg);
+  background-image: url(/img/atlanta-made-sign.webp);
 }
 .bg-atlanta-20made-20sign-20orange {
-  background-image: url(img/atlanta-made-sign-orange.webp);
+  background-image: url(/img/atlanta-made-sign-orange.webp);
 }
 @media (max-width: 1024px) {
   .bloc {
