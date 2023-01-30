@@ -361,7 +361,7 @@ p {
   font-size: 38px;
 }
 p {
-  font-size: 12px;
+  font-size: 16px;
 }
 .tight-width-whitespace {
   max-width: 600px;
@@ -380,6 +380,8 @@ p {
   font-weight: 700;
 }
 .social {
+  display: flex;
+  justify-content: center;
   max-width: 400px;
   margin: auto auto auto auto;
 }
